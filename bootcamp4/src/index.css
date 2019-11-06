@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #1358c0;
 }
 
 /* ##### general ##### */
@@ -11,10 +12,17 @@ body {
 main {
 	padding: 0 2rem;
 }
-
+.title{
+	color: white;
+}
+.orangeText{
+	color: #f87000;
+	font-size: 1.3rem;
+	outline-style: white;
+}
 /* ##### Search ##### */
 header {
-	background: #3498db;
+	background: #f87000;
 	margin-bottom: 2rem;
 }
 
@@ -49,15 +57,17 @@ td:hover {
 
 /* ##### Columns ##### */
 .column1 {
+	color: white;
 	float: left;
 	width: 50%;
 	padding: 10px;
 }
 .column2 {
+	color: white;
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: #1358c0;
 }
 
 /* ##### Rows ##### */
@@ -81,14 +91,14 @@ td:hover {
 /* ##### Footer ##### */
 .credit {
 	padding: 1rem 0;
-	color: #b3b3b3;
+	color: white;
 }
 .credit a {
-	color: #3498bb;
+	color: white;
 }
 button {
-	background: #d7d7d7;
-	color: #3b3b3b;
+	background: #f87000;
+	color: white;
 	padding: 0.6rem 1rem;
 	font-size: 0.8rem;
 	border: solid 1px #c7c7c7;
@@ -96,6 +106,7 @@ button {
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 3px;
 	outline: none;
+	
 }
 button:hover {
 	background: #ddd;
